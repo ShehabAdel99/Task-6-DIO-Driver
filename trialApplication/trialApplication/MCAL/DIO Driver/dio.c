@@ -169,7 +169,7 @@ void DIO_read(uint8_t PinNumber , uint8_t PortNumber, uint8_t *value)
  }
  return ;
 }
-DIO_toggle(uint8_t PinNumber , uint8_t PortNumber)
+void DIO_toggle(uint8_t PinNumber , uint8_t PortNumber)
 {
   switch(PortNumber)
  {

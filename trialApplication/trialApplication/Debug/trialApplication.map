@@ -481,18 +481,18 @@ END GROUP
  .debug_frame   0x000000bc       0x24 main.o
  .debug_frame   0x000000e0       0x54 MCAL/DIO Driver/dio.o
 
-.debug_str      0x00000000      0x437
+.debug_str      0x00000000      0x3e1
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_str     0x00000196      0x17b Application/app.o
- .debug_str     0x00000311       0x4d ECUAL/Button Driver/button.o
-                                0x176 (size before relaxing)
- .debug_str     0x0000035e       0x3e ECUAL/LED Driver/led.o
-                                0x170 (size before relaxing)
- .debug_str     0x0000039c       0x58 main.o
-                                0x124 (size before relaxing)
- .debug_str     0x000003f4       0x43 MCAL/DIO Driver/dio.o
-                                0x176 (size before relaxing)
+ .debug_str     0x00000196      0x16c Application/app.o
+ .debug_str     0x00000302       0x4d ECUAL/Button Driver/button.o
+                                0x167 (size before relaxing)
+ .debug_str     0x0000034f       0x3e ECUAL/LED Driver/led.o
+                                0x161 (size before relaxing)
+ .debug_str     0x0000038d       0x11 main.o
+                                0x11e (size before relaxing)
+ .debug_str     0x0000039e       0x43 MCAL/DIO Driver/dio.o
+                                0x167 (size before relaxing)
 
 .debug_loc      0x00000000      0x892
  *(.debug_loc)
